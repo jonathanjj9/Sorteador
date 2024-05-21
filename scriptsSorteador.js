@@ -8,8 +8,13 @@ function generateNumber(){
         const result = Math.floor (Math.random() * (e - entre + 1)) + entre;
 
         alert(result)
+  
+    }
+    else if( e < 0 || entre < 0){
+        alert("Favor escolher numeros positivos")
+    }
 
-    }else{
+    else{
         
         alert("O valor a esquerda precisa ser MENOR do que o valor a direita")
     }
